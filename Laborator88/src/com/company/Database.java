@@ -25,7 +25,7 @@ public class Database {
 
        try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           connect= DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "calculator1");
+           connect= DriverManager.getConnection("jdbc:mysql://localhost:3306/MusicAlbums", "dba", "sql");
            System.out.println("Connected Succesfully");
        }catch (SQLException | ClassNotFoundException ex){
            ex.printStackTrace();
